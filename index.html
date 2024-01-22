@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>website bootstrap</title>
+  <style>
+    * {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+      line-height: 2rem;
+      color: #6c6c6c;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-white fixed-top w-100 px-5">
+    <div class="container py-3">
+      <a class="navbar-brand fs-2 fw-bold" style="color: #6C63FF" href="#">LOGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link mx-2" onclick="closeMenu()" href="#">HOME</a>
+          <a class="nav-link mx-2" onclick="closeMenu()" href="#about">ABOUT</a>
+          <a class="nav-link mx-2" onclick="closeMenu()" href="#work">WORK</a>
+          <a class="nav-link mx-2" onclick="closeMenu()" href="#team">TEAM</a>
+          <a class="nav-link mx-2" onclick="closeMenu()" href="#blog">BLOG</a>
+          <a class="nav-link mx-2" onclick="closeMenu()" href="#contact">CONTACT</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main style="padding-top: 8rem;">
+    <section id="home" class="row container mx-auto d-flex justify-content-center align-items-center">
+      <div class="col-lg-6 d-flex flex-column gap-3">
+        <h1 class="fw-bold fs-2">Welcome To Our Website's Company</h1>
+        <p>Nulla vel sodales tellus, quis condimentumenim. Nunc porttitor venenatis feugiat.Etiam quis faucibus
+          erat, non accumsan leo.Aliquam erat volutpat. Vestibulum acfaucibus eros. Cras ullamcorper
+          gravidatellus ut consequat.</p>
+        <a href="#" class="btn text-white px-4 py-2" style="background: #6C63FF; border-radius: 0; width: fit-content">START NOW</a>
+      </div>
+      <div class="col-lg-6 mt-5">
+        <img src="./src/img/headerImage.png" alt="headerImage" class="w-100">
+      </div>
+    </section>
+    <section id="about" class="container mx-auto px-4" style="padding-top: 8rem;">
+      <h1 class="fs-2 text-center" style="margin-bottom: 6rem;">ABOUT US</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="./src/img/image.png" alt="image" class="w-100 object-fit-contain">
+        </div>
+        <div class="col-lg-6">
+          <p class="my-4">Nulla vel sodales tellus, quis condimentumenim. Nunc porttitor venenatis
+            feugiat.Etiam quis
+            faucibus
+            erat, non accumsan leo.Aliquam erat volutpat. Vestibulum acfaucibus eros. Cras ullamcorper
+            gravidatellus ut consequat.</p>
+          <div class="d-flex flex-column gap-4">
+            <div class="d-flex gap-3">
+              <img src="./src/img/Amazon Alexa Logo.png" class="object-fit-contain" alt="amazon">
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                unorthographic life One </p>
+            </div>
+            <div class="d-flex gap-3">
+              <img src="./src/img/Hexagon Synchronize.png" class="object-fit-contain" alt="hexagon">
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                unorthographic life One </p>
+            </div>
+
+            <div class="d-flex gap-3">
+              <img src="./src/img/Connect.png" class="object-fit-contain" alt="connect">
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                unorthographic life One </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="container mx-auto px-3" style="padding-top: 8rem;">
+      <h1 class="fs-2 text-center" style="margin-bottom: 6rem;">OUR SERVICE / WORK</h1>
+      <div class="row row-cols-1 row-cols-lg-3 justify-content-center gap-5">
+        <div class="col d-flex flex-column gap-5 justify-content-center align-items-center" style="width: 20rem;">
+          <img src="./src/img/Services.png" alt="services" style="width: 4rem;">
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+            unorthographic </p>
+        </div>
+        <div class="col d-flex flex-column gap-5 justify-content-center align-items-center" style="width: 20rem;">
+          <img src="./src/img/Directory.png" alt="directory" style="width: 4rem;">
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+            unorthographic </p>
+        </div>
+        <div class="col d-flex flex-column gap-5 justify-content-center align-items-center" style="width: 20rem;">
+          <img src="./src/img/Puzzle.png" alt="puzzle" style="width: 4rem;">
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+            unorthographic </p>
+        </div>
+        <div class="col d-flex flex-column gap-5 justify-content-center align-items-center" style="width: 20rem;">
+          <img src="./src/img/Ok.png" alt="ok" style="width: 4rem;">
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+            unorthographic </p>
+        </div>
+        <div class="col d-flex flex-column gap-5 justify-content-center align-items-center" style="width: 20rem;">
+          <img src="./src/img/Filled Bookmark Ribbon.png" alt="filled" style="width: 4rem;">
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+            unorthographic </p>
+        </div>
+        <div class="col d-flex flex-column gap-5 justify-content-center align-items-center" style="width: 20rem;">
+          <img src="./src/img/Refresh.png" alt="refresh" style="width: 4rem;">
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+            unorthographic </p>
+        </div>
+      </div>
+    </section>
+    <section id="team" style="background: url('./src/img/image\ 4.png'); background-repeat: no-repeat; background-size: cover;  margin-top: 8rem; padding: 8rem 0;">
+      <h1 class="fs-2 text-center text-white px-3" style="margin-bottom: 6rem;">OUR TEAM</h1>
+      <div class="container d-flex flex-wrap gap-5 mx-auto justify-content-center">
+        <div class="position-relative">
+          <img src="./src/img/image 5.png" alt="heissenberg" style="width: 15rem">
+          <h1 class="p-3 text-white position-absolute  fs-3 w-100 text-center" style="background-color: #6C63FF; left: 2rem; bottom: -1rem;">HEISSENBERG</h1>
+        </div>
+        <div class="position-relative">
+          <img src="./src/img/image 5-1.png" alt="heissenberg" style="width: 15rem">
+          <h1 class="p-3 text-white position-absolute  fs-3 w-100 text-center" style="background-color: #6C63FF; left: 2rem; bottom: -1rem;">JESSE</h1>
+        </div>
+        <div class="position-relative">
+          <img src="./src/img/image 5-2.png" alt="heissenberg" style="width: 15rem">
+          <h1 class="p-3 text-white position-absolute  fs-3 w-100 text-center" style="background-color: #6C63FF; left: 2rem; bottom: -1rem;">SPONGEBOB</h1>
+        </div>
+        <div class="position-relative">
+          <img src="./src/img/image 5-3.png" alt="heissenberg" style="width: 15rem">
+          <h1 class="p-3 text-white position-absolute  fs-3 w-100 text-center" style="background-color: #6C63FF; left: 2rem; bottom: -1rem;">OGGY</h1>
+        </div>
+      </div>
+    </section>
+    <section id="blog" class="container mx-auto px-4" style="padding-top: 8rem;">
+      <h1 class="fs-2 text-center" style="margin-bottom: 6rem;">READ OUR BLOG</h1>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col my-4">
+          <div class="card" style="border: 1px solid #7d7d7d; border-radius:0;">
+            <img src="./src/img/card.png" class="card-img-top" alt="card" style="border-radius: 0;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center mt-4" style="color:#6C63FF">This is a landscape
+              </h5>
+              <h5 class="card-title fs-6 text-center">One of the best view in the world</h5>
+              <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                bulk
+                of the card's content.</p>
+              <a href="#" class="btn mt-4 px-4 py-2 w-100" style="border: 1px solid #7d7d7d; border-radius: 0;">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col my-4">
+          <div class="card" style="border: 1px solid #7d7d7d; border-radius:0;">
+            <img src="./src/img/card.png" class="card-img-top" alt="card" style="border-radius: 0;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center mt-4" style="color:#6C63FF">This is a landscape
+              </h5>
+              <h5 class="card-title fs-6 text-center">One of the best view in the world</h5>
+              <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                bulk
+                of the card's content.</p>
+              <a href="#" class="btn mt-4 px-4 py-2 w-100" style="border: 1px solid #7d7d7d; border-radius: 0;">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col my-4">
+          <div class="card" style="border: 1px solid #7d7d7d; border-radius:0;">
+            <img src="./src/img/card.png" class="card-img-top" alt="card" style="border-radius: 0;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center mt-4" style="color:#6C63FF">This is a landscape
+              </h5>
+              <h5 class="card-title fs-6 text-center">One of the best view in the world</h5>
+              <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                bulk
+                of the card's content.</p>
+              <a href="#" class="btn mt-4 px-4 py-2 w-100" style="border: 1px solid #7d7d7d; border-radius: 0;">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col my-4">
+          <div class="card" style="border: 1px solid #7d7d7d; border-radius:0;">
+            <img src="./src/img/card.png" class="card-img-top" alt="card" style="border-radius: 0;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center mt-4" style="color:#6C63FF">This is a landscape
+              </h5>
+              <h5 class="card-title fs-6 text-center">One of the best view in the world</h5>
+              <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                bulk
+                of the card's content.</p>
+              <a href="#" class="btn mt-4 px-4 py-2 w-100" style="border: 1px solid #7d7d7d; border-radius: 0;">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col my-4">
+          <div class="card" style="border: 1px solid #7d7d7d; border-radius:0;">
+            <img src="./src/img/card.png" class="card-img-top" alt="card" style="border-radius: 0;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center mt-4" style="color:#6C63FF">This is a landscape
+              </h5>
+              <h5 class="card-title fs-6 text-center">One of the best view in the world</h5>
+              <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                bulk
+                of the card's content.</p>
+              <a href="#" class="btn mt-4 px-4 py-2 w-100" style="border: 1px solid #7d7d7d; border-radius: 0;">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col my-4">
+          <div class="card" style="border: 1px solid #7d7d7d; border-radius:0;">
+            <img src="./src/img/card.png" class="card-img-top" alt="card" style="border-radius: 0;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center mt-4" style="color:#6C63FF">This is a landscape
+              </h5>
+              <h5 class="card-title fs-6 text-center">One of the best view in the world</h5>
+              <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                bulk
+                of the card's content.</p>
+              <a href="#" class="btn mt-4 px-4 py-2 w-100" style="border: 1px solid #7d7d7d; border-radius: 0;">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="container mx-auto d-flex flex-column justify-content-center align-items-center gap-4" style="padding: 8rem 0;">
+      <h1 class="text-center">Grow your business</h1>
+      <p class="text-center w-75">Today is the day to build the business of your dreams. Share your mission with
+        the world — and blow your customers away.</p>
+      <a href="#" class="btn mx-auto text-white px-4 py-2" style="background: #6C63FF; border-radius: 0; width: fit-content">START NOW</a>
+    </section>
+  </main>
+
+  <footer class="position-relative" style="background:#6C63FF; top: 1rem; padding-top: 1rem;">
+    <div class="row row-cols-1 row-cols-md-4 container mx-auto text-white py-5 justify-content-between ">
+      <div class="col d-flex flex-column gap-2 my-2">
+        <h1 class="text-uppercase fs-5 fw-bold">Our Offices</h1>
+        <p class="text-white" style="font-size: .9rem">Nulla vel sodales tellus, quis condimentum
+          enim. Nunc porttitor venenatis feugiat.
+          Etiam quis faucibus erat, non accumsan .</p>
+      </div>
+      <div class="col d-flex flex-column gap-2 my-2">
+        <h1 class="text-uppercase fs-5 fw-bold">Our Offices</h1>
+        <p class="text-white" style="font-size: .9rem">908 Broadway,
+          San Francisco,
+          CA 94133</p>
+      </div>
+      <div class="col d-flex flex-column gap-2 my-2">
+        <h1 class="text-uppercase fs-5 fw-bold">WORKING HOURS</h1>
+        <p class="text-white" style="font-size: .9rem">9AM - 3PM, Mon to Fri</p>
+      </div>
+      <div class="col d-flex flex-column gap-2 my-2" style="width: 11rem;">
+        <h1 class="text-uppercase fs-5 fw-bold">Contact</h1>
+        <p class="text-white" style="font-size: .9rem">
+          contact@business.com <br>
+          10290192918928
+        </p>
+      </div>
+    </div>
+    <p class="text-center py-5 text-white" style="font-size: .9em">© Copyright Company. All Rights Reserved <br>
+      Designed by Hugo Hamonangan</p>
+  </footer>
+  <script src="./src/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function closeMenu() {
+      if (window.innerWidth <= 990) {
+        document.querySelector(".navbar-toggler").click();
+      }
+    }
+  </script>
+</body>
+
+</html>
